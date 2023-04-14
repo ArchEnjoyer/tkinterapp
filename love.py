@@ -1,10 +1,11 @@
 from tkinter import *
 from tkinter import ttk
 from tkinter import messagebox
+from sys import exit as end_of_program
 import random
 def funct1():
     messagebox.showinfo(" ", "А я люблю тебя!!!")
-    quit()
+    end_of_program()
 def funct2(param):
     btnNO.place(x=random.randint(100, 1000), y=random.randint(100, 750))
 
